@@ -1,7 +1,7 @@
 ************************************************************************************
 **ARCHIVED CONTENT! Content last updated in 2016. Content archived as a reference.**
 
-(Last commit containing content c61080306938abdadc2ffa38f876ce5e5356353d)
+(Last GovReady-Q repo commit containing content c61080306938abdadc2ffa38f876ce5e5356353d)
 ************************************************************************************
 
 # CloudFoundry compliance proof-of-concept
