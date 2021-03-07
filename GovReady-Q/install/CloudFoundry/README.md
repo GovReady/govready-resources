@@ -1,9 +1,6 @@
-*****************************************************************
-**ALERT! ARCHIVED CONTENT!**
-**Content last updatedin 2016.**
-**Content archived as a reference.**
-******************************************************************
-
+************************************************************************************
+**ARCHIVED CONTENT! Content last updated in 2016. Content archived as a reference.**
+************************************************************************************
 
 # CloudFoundry compliance proof-of-concept
 
