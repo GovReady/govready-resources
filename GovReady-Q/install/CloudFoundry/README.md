@@ -1,4 +1,9 @@
-**ALERT! ARCHIVED CONTENT! This content was prepared in 2016 and has not been updated. It has been archived as a reference.**
+*****************************************************************
+* **ALERT! ARCHIVED CONTENT!**                                  *
+* **This content was prepared in 2016 and has not been updated.
+* **It has been archived as a reference.**
+******************************************************************
+
 
 # CloudFoundry compliance proof-of-concept
 
