@@ -1,7 +1,7 @@
 *****************************************************************
-* **ALERT! ARCHIVED CONTENT!**                                  *
-* **This content was prepared in 2016 and has not been updated.
-* **It has been archived as a reference.**
+**ALERT! ARCHIVED CONTENT!**
+**Content last updatedin 2016.**
+**Content archived as a reference.**
 ******************************************************************
 
 
