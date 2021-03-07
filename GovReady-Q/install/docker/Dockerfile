@@ -1,3 +1,9 @@
+# ***********************************************
+# * POTENTIALLY DEPRECATED CONTENT!             *
+# * THIS CONTENT IS DEPRECATED AND OUT OF DATE. *
+# * LAST UPDATED IN MAY 2020.                   *
+# ***********************************************
+
 # Build GovReady-Q Docker container
 #
 # Build examples:
