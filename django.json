@@ -1,0 +1,180 @@
+{
+  "component-definition": {
+    "uuid": "0f05fc31-73a7-4f43-8834-7cb3a490d955",
+    "metadata": {
+      "title": "Django Component-to-Control Narratives",
+      "published": "2021-07-16T17:20:44+00:00",
+      "last-modified": "2021-05-05T13:03:09+00:00",
+      "version": "2021-05-05T13:03:09+00:00",
+      "oscal-version": "1.0.0-rc1",
+      "props": [
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "Manual"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "800-53"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "GovReady Written"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "Public"
+        }
+      ]
+    },
+    "components": {
+      "37141165-c392-474e-b038-84d6ff1d9d3f": {
+        "title": "Django Web Framework",
+        "type": "software",
+        "description": "Django is a Python-based free and open source web framework that follows the model-template-views (MTV) architectural pattern.",
+        "control-implementations": [
+          {
+            "uuid": "73284c2b-a827-4b3f-a951-a0762942a1c0",
+            "source": "NIST_SP-800-53_rev4",
+            "description": "Partial implementation of NIST_SP-800-53_rev4",
+            "implemented-requirements": [
+              {
+                "uuid": "5df574f7-ffe6-4d8b-9c7a-1cd5040a11c2",
+                "control-id": "ac-11",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-11_smt": {
+                    "uuid": "328f416c-adcf-4186-aaf5-6d1f5a41ca2a",
+                    "description": "The Django web framework has built-in session management that includes locking and terminating a session after a specific duration of inactivity. The duration of a session is set by configuring the `SESSION_COOKIE_AGE` in `settings.py`. ",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "677958bd-6ae1-4cc6-8947-a2dacada6223",
+                "control-id": "ac-14",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-14_smt": {
+                    "uuid": "41cfcd9f-8c56-4e70-8097-ee7b7400c1cd",
+                    "description": "The Django web framework has built-in session management and path routing that be combined to control which actions that can be performed by the end-user do or do not require authentication.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "d4beab5d-c54b-450f-a11b-582a8abcfcab",
+                "control-id": "ac-3",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-3_smt": {
+                    "uuid": "0021ecd0-73fe-4e98-b4c5-18ec128dd090",
+                    "description": "The Django web framework has built-in authentication to enforce logical access to information and services. ",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "a9d0d82d-bde0-4b32-b012-1c87eeb35ecf",
+                "control-id": "au-2",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "au-2_smt": {
+                    "uuid": "46d46b9f-c1b0-497c-b079-a179e6ff84d6",
+                    "description": "The Django web framework has built-in and extensible logging that is fully configurable and programmable by application developers to log events.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "e1c30eda-8107-41d8-84ce-96e6d1145312",
+                "control-id": "au-3",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "au-3_smt": {
+                    "uuid": "c32ed727-8dae-4d25-97b3-04cf919cb24b",
+                    "description": "The Django web framework contains built-in logging tools that can be configured and programmed by application developers to generate audit records containing required information.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "9eb53fdb-10bb-4521-b8b4-550590cd53e5",
+                "control-id": "au-8",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "au-8_smt": {
+                    "uuid": "2d646afb-72ae-4c78-a69b-2ccb780533f4",
+                    "description": "The Django web framework uses the Python programming language's time module for generating and time and date stamps. The Python programming language has access to the Operating System's clock for time and date information.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "2853de41-86e0-47bc-8014-6aec2f799a29",
+                "control-id": "ia-11",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ia-11_smt": {
+                    "uuid": "4cfd9aaf-9ced-4e6a-9345-7452bcbc6146",
+                    "description": "The Django web framework has built-in session management that can be configured with session locks and timeouts that require re-authentication of users before continued access is granted. Application developers can extend the built-in session management to require re-authentication according to organization policies.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "585f018c-d143-4884-916c-2fdc56cafaff",
+                "control-id": "ia-2",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ia-2_smt": {
+                    "uuid": "785651f4-a8bd-4c1c-978f-984be9ea9f1e",
+                    "description": "The Django web framework has built-in authentication to enforce logical access to information and services. ",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "edd75022-f9b6-4b0d-b8ad-fd1330192210",
+                "control-id": "ia-6",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ia-6_smt": {
+                    "uuid": "71248a9b-87c5-4ee3-bc69-a655b36e8554",
+                    "description": "The Django web framework has built-in authentication processes that obscure feedback of authentication information during the authentication process. Django also has a built-in `DEBUG` setting that when set to `False` prevents all error information from being rendered to the web browser.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "8994079d-7c38-446e-9ae6-70fd878dfde7",
+                "control-id": "si-9",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "si-9_smt": {
+                    "uuid": "ba951670-4952-43ac-ad2e-15f1f8ee39c4",
+                    "description": "Django provides built-in validators, form validation handling, and auto-escaping to check to ensure correct data types are added by end users.",
+                    "remarks": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "component-definition": {
+    "uuid": "b0603267-5d36-47d4-8186-3f9792923257",
+    "metadata": {
+      "title": "GovReady PBC Security Handbook Component-to-Control Narratives",
+      "published": "2021-07-16T17:21:10+00:00",
+      "last-modified": "2021-05-16T00:26:11+00:00",
+      "version": "2021-05-16T00:26:11+00:00",
+      "oscal-version": "1.0.0-rc1",
+      "props": [
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "Manual"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "800-53"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "GovReady Written"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "Public"
+        }
+      ]
+    },
+    "components": {
+      "9ef54188-8aa4-466b-8bc7-77ae00180fd5": {
+        "title": "GovReady PBC Security Handbook",
+        "type": "software",
+        "description": "Official practices, policies and procedures of the GovReady PBC organization.",
+        "control-implementations": [
+          {
+            "uuid": "3b3e8769-3c98-474b-a243-a62ff23cf709",
+            "source": "NIST_SP-800-53_rev4",
+            "description": "Partial implementation of NIST_SP-800-53_rev4",
+            "implemented-requirements": [
+              {
+                "uuid": "266f6876-3502-41a6-9644-499b70ce33e7",
+                "control-id": "at-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "at-1_smt": {
+                    "uuid": "ccf23f89-be23-44ff-9e90-8e94a4b6c8c1",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe security awareness training practice describes the management commitment, purpose, scope, and responsibilities for developing the security awareness training as well as specific procedures to insure the implementation of the trainings for employees and consultants. \r\n\r\nPart of the security and awareness training practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "828684ce-1ad3-4a3a-aeb3-1048c153c9ae",
+                "control-id": "au-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "au-1_smt": {
+                    "uuid": "0c45ead8-944a-4a72-9bcd-eeddc2cbe6a7",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe audit and accountability contingency practice describes the management commitment, purpose, scope, and responsibilities for developing audit and accountability policies as well as specific procedures to insure the implementation of the  policies. \r\n\r\nPart of the contingency planning practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "907cf37a-494a-4c69-bd06-185446b36295",
+                "control-id": "ca-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ca-1_smt": {
+                    "uuid": "34869ab4-c4fc-44ce-bf41-bdb9657f053c",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe audit and accountability contingency practice describes the management commitment, purpose, scope, and responsibilities for developing security assessment and authorization policy as well as specific procedures to insure the implementation of the policy. \r\n\r\nPart of the contingency planning practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "f4715134-5fa4-4c51-bbcd-ce5850688fb0",
+                "control-id": "cm-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cm-1_smt": {
+                    "uuid": "484d622f-a856-404a-8322-38b3e913e228",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe configuration management practice describes the management commitment, purpose, scope, and responsibilities for developing configuration management policy as well as specific procedures to insure the implementation of the policy. \r\n\r\nPart of the configuration management practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "756bf14c-419e-47f4-b2a3-f2bf52673180",
+                "control-id": "cp-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cp-1_smt": {
+                    "uuid": "ba8af1ae-0d8c-4e31-a6e4-87e628146d30",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe contingency planning practice describes the management commitment, purpose, scope, and responsibilities for developing contingency plans as well as specific procedures to insure the implementation of the contingency planning policy. \r\n\r\nPart of the contingency planning practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "fc2059cc-3ebb-43ea-8243-cc242b8ecb76",
+                "control-id": "ia-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ia-1_smt": {
+                    "uuid": "42d4ac8e-05e3-47c6-ba7b-649b85d87371",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe identity and authorization practice describes the management commitment, purpose, scope, and responsibilities for developing contingency plans as well as specific procedures to insure the implementation of the identity and authorization policy. \r\n\r\nPart of the identity and authorization practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "2909d751-1cbc-4247-874c-c6cd9c9e722c",
+                "control-id": "ir-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ir-1_smt": {
+                    "uuid": "9fd13ed5-5bc8-488e-9773-cfee3a84c929",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe incident response practice describes the management commitment, purpose, scope, and responsibilities for developing incident response as well as specific procedures to insure the implementation of the incident response policy. \r\n\r\nPart of the incident response practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "60ae625e-650e-4d80-8309-ae6171371d98",
+                "control-id": "ma-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ma-1_smt": {
+                    "uuid": "3da25608-ee47-43e1-805e-d1a8bb9dfe9f",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe system maintenance practice describes the management commitment, purpose, scope, and responsibilities for developing system maintenance policy as well as specific procedures to insure the implementation of the system maintenance policy. \r\n\r\nPart of the system maintenance practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "de69f578-59f0-4541-93d4-c273f35de65b",
+                "control-id": "mp-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "mp-1_smt": {
+                    "uuid": "0281f7e4-96bb-4298-9268-50659b123011",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe media protection practice describes the management commitment, purpose, scope, and responsibilities for developing media protection as well as specific procedures to insure the implementation of the media protection policy. \r\n\r\nPart of the media protection practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "ae9dde59-2cc7-4da1-ab4d-6414e091a64b",
+                "control-id": "pe-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "pe-1_smt": {
+                    "uuid": "b34fff49-570a-4afb-a961-f5479810b12c",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe physical and environmental protection practice describes the management commitment, purpose, scope, and responsibilities for developing physical and environmental protection as well as specific procedures to insure the implementation of the physical and environmental protection policy. \r\n\r\nPart of the physical and environmental protection practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "6f12efca-d6b7-4a70-acf8-beb62f900b41",
+                "control-id": "pl-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "pl-1_smt": {
+                    "uuid": "6231a6ee-ef9b-4d26-ae3e-87aa58271b79",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe identity and authorization practice describes the management commitment, purpose, scope, and responsibilities for developing security planning as well as specific procedures to insure the implementation of the security planning policy. \r\n\r\nPart of the security planning practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "1e82e10a-5c15-4835-9209-0e9383d4340e",
+                "control-id": "pm-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "pm-1_smt": {
+                    "uuid": "e5a3d0c6-8bf7-4408-8442-d88e73e5b725",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe program management practice describes the management commitment, purpose, scope, and responsibilities for developing program management as well as specific procedures to insure the implementation of the program management policy. \r\n\r\nPart of the program management integrity practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "dd65d333-2b69-41c1-8a6a-7c6765568cdf",
+                "control-id": "ps-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ps-1_smt": {
+                    "uuid": "ce3aa773-35b1-4d0d-94d2-7d78b2dcb145",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe identity and authorization practice describes the management commitment, purpose, scope, and responsibilities for developing personnel security as well as specific procedures to insure the implementation of the personnel security policy. \r\n\r\nPart of the personnel security is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "19224230-b700-49b5-ae12-65e186ad33d9",
+                "control-id": "ra-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ra-1_smt": {
+                    "uuid": "88429291-58f3-4bf2-936b-159f3ec9e49e",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe identity and authorization practice describes the management commitment, purpose, scope, and responsibilities for developing risk assessment policy as well as specific procedures to insure the implementation of the risk assessment policy. \r\n\r\nPart of the risk assessment practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "c09b3078-f156-48bc-8c7c-67cb60c1e721",
+                "control-id": "sa-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "sa-1_smt": {
+                    "uuid": "c3b7e823-3d69-4f94-bae5-97d445c44e20",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe system and services acquisition practice describes the management commitment, purpose, scope, and responsibilities for developing system and services acquisition policy as well as specific procedures to insure the implementation of the system and services acquisition policy. \r\n\r\nPart of the security planning practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "2defb197-ea5f-4867-a7a9-ec03bc2f0c4b",
+                "control-id": "sc-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "sc-1_smt": {
+                    "uuid": "b887106e-4d8b-4868-a4a2-c888404ca9d5",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe system and communication practice describes the management commitment, purpose, scope, and responsibilities for system and communication plans as well as specific procedures to insure the implementation of the system and communication policy. \r\n\r\nPart of the system and communication practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "e57184bc-40cd-4c5a-bd1f-03aca8055376",
+                "control-id": "si-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "si-1_smt": {
+                    "uuid": "c78ece67-63c4-4faf-96c9-1e9f8b393c13",
+                    "description": "GovReady PBC Practices is a collection of organizational practices that address policies, procedures, and practices followed by GovReady PBC and includes contingency planning practices. Public practices are in the repository https://github.com/GovReady/govready-pbc-practices. Private practices are in the repository https://github.com/GovReady/govready-pbc-private-practices. \r\n\r\nThe systems and information integrity practice describes the management commitment, purpose, scope, and responsibilities for developing systems and information integrity as well as specific procedures to insure the implementation of the systems and information integrity policy. \r\n\r\nPart of the systems and information integrity practice is to have the Director of Operations and CTO review the practice quarterly.",
+                    "remarks": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "component-definition": {
+    "uuid": "1a25b99d-70e9-46ec-94ca-9595b7823ea7",
+    "metadata": {
+      "title": "GovReady PBC Operations Team Component-to-Control Narratives",
+      "published": "2021-07-16T17:21:20+00:00",
+      "last-modified": "2021-05-16T00:25:51+00:00",
+      "version": "2021-05-16T00:25:51+00:00",
+      "oscal-version": "1.0.0-rc1",
+      "props": [
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "Manual"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "800-53"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "GovReady Written"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "Public"
+        }
+      ]
+    },
+    "components": {
+      "f787e5cb-e34f-48da-a80f-5dc0256e6677": {
+        "title": "GovReady PBC Operations Team",
+        "type": "software",
+        "description": "Team responsible at GovReady PBC for maintaining and operating GovReady PBC software deployments.",
+        "control-implementations": [
+          {
+            "uuid": "7144bf5c-58c0-493c-927c-adc0ae21120a",
+            "source": "NIST_SP-800-53_rev4",
+            "description": "Partial implementation of NIST_SP-800-53_rev4",
+            "implemented-requirements": [
+              {
+                "uuid": "01946835-704b-4182-bfd8-53d76395cb27",
+                "control-id": "cp-9.1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cp-9.1_smt": {
+                    "uuid": "31c3fe4d-9c08-48dc-be21-690c2b999383",
+                    "description": "The GovReady Operations Team tests backup information on a quarterly basis to verify media reliability and information integrity of GovReady PBC software.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "8d0ff22f-ca26-41d1-8a88-54fc578e6eb8",
+                "control-id": "cp-9.2",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cp-9.2_smt": {
+                    "uuid": "a3d07594-fb46-453b-9bc2-0a7d44499374",
+                    "description": "The GovReady Operations Teams restores a sample of backup information to restore a new version of production information as part of contingency plan testing.",
+                    "remarks": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

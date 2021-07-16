@@ -1,0 +1,227 @@
+{
+  "component-definition": {
+    "uuid": "f99ec264-bcdb-4ab6-b4c1-3c1c6ff11a51",
+    "metadata": {
+      "title": "GovReady PBC Component-to-Control Narratives",
+      "published": "2021-07-16T17:12:19+00:00",
+      "last-modified": "2021-05-16T00:26:29+00:00",
+      "version": "2021-05-16T00:26:29+00:00",
+      "oscal-version": "1.0.0-rc1",
+      "props": [
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "Manual"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "800-53"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "GovReady Written"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "Public"
+        }
+      ]
+    },
+    "components": {
+      "6457dae3-56da-4ebd-9d2c-2aee7c8f2ddd": {
+        "title": "GovReady Public Benefit Corporation",
+        "type": "software",
+        "description": "GovReady PBC is a Delaware public benefit corporation with offices in Virginia. GovReady PBC is the primary maintainer and service provider for GovReady-Q software.",
+        "control-implementations": [
+          {
+            "uuid": "4df67e97-3fb0-4dae-9a55-6caa8dd8058a",
+            "source": "NIST_SP-800-53_rev4",
+            "description": "Partial implementation of NIST_SP-800-53_rev4",
+            "implemented-requirements": [
+              {
+                "uuid": "0d0b7e6c-dc68-472c-a1dc-f9aafa5c1ab7",
+                "control-id": "cp-2.1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cp-2.1_smt": {
+                    "uuid": "0c8951ed-5e73-46a0-97cf-3f834a5eaf0d",
+                    "description": "GovReady PBC is a small enough organization that all contingency plan development is done by the same individuals who develop other organization risk management plans.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "54f5b7a3-0577-46d7-a002-318d851eff36",
+                "control-id": "cp-2.3",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cp-2.3_smt": {
+                    "uuid": "45f7b6df-bc5c-4d15-9818-262cd33b273b",
+                    "description": "GovReady PBC plans for the resumption of essential missions and business functions within 10 business days of organizational contingency plan activation.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "c3d815b1-e491-4dc9-916d-2f373697574c",
+                "control-id": "cp-2.8",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cp-2.8_smt": {
+                    "uuid": "611bb57a-4f37-453c-9202-efe4821f22dd",
+                    "description": "GovReady PBC maintains a list of critical information system assets supporting essential missions and business functions as a Google Doc and/or markdown document in a GitHub repository.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "d2341aeb-9a66-4ef3-8e95-b88ab7fcaf84",
+                "control-id": "cp-3",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cp-3_smt": {
+                    "uuid": "cbcaea9e-04a6-4e38-a67d-50b9e0758962",
+                    "description": "GovReady PBC provides contingency training to information system users consistent with assigned roles and responsibilities within 30 days of assuming a contingency role or responsibility; when required by information system changes; and a brief review on an annual basis.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "6faccc96-16bf-40f0-838b-b1860919c6b3",
+                "control-id": "ps-3",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ps-3_smt": {
+                    "uuid": "4f6cd531-b6d4-4145-8d32-8b8407eb0821",
+                    "description": "GovReady PBC has a formal screening process for employees and contractors that have access to customer proprietary information and commit privileges to GovReady PBC software. GovReady PBC leverages the background checks that are performed by government agencies on individuals as part of its screen process.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "7eefe6db-0373-441b-a7df-183160c2da22",
+                "control-id": "ps-4",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ps-4_smt.f": {
+                    "uuid": "ef0f07e0-56dc-43bc-93a3-1101bb03f0fd",
+                    "description": "GovReady PBC, upon termination of individual employment and contract consulting services, notifies the Director of Operations, CEO, managers, and effected customers within 2 weeks.",
+                    "remarks": ""
+                  },
+                  "ps-4_smt.a": {
+                    "uuid": "9719a7b9-6db9-4142-b50e-41ca0edcbc89",
+                    "description": "GovReady PBC, upon termination of individual employment and contract consulting services, disables appropriate system information access within 14 days.",
+                    "remarks": ""
+                  },
+                  "ps-4_smt.b": {
+                    "uuid": "74efdbd6-47ab-49c0-bdef-3e3bacb720f5",
+                    "description": "GovReady PBC, upon termination of individual employment and contract consulting services, revokes all authenticators/credentials associated with the individual.",
+                    "remarks": ""
+                  },
+                  "ps-4_smt.c": {
+                    "uuid": "018ec721-d677-46bd-8784-3cfffe5ae8d7",
+                    "description": "GovReady PBC, upon termination of individual employment and contract consulting services, conducts exist interviews that include a discussion of any issues the individual saw with organization conduct and cyber security.",
+                    "remarks": ""
+                  },
+                  "ps-4_smt.d": {
+                    "uuid": "e9bce8ba-37e3-44d7-ad56-a34dfecac94a",
+                    "description": "GovReady PBC, upon termination of individual employment and contract consulting services, retrieves all security-related organizational information system-related property. The Director of Operations is responsible for this task.",
+                    "remarks": ""
+                  },
+                  "ps-4_smt.e": {
+                    "uuid": "8cc5b217-05e7-446f-91f2-2dbb5ef4c76a",
+                    "description": "GovReady PBC, upon termination of individual employment and contract consulting services, reviews information the individual had access to in information systems and retains relevant organizational information.",
+                    "remarks": ""
+                  },
+                  "ps-4_smt": {
+                    "uuid": "8cc5b217-05e7-446f-91f2-2dbb5ef4c76a",
+                    "description": "GovReady PBC, upon termination of individual employment and contract consulting services, reviews information the individual had access to in information systems and retains relevant organizational information.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "5ba4ec61-8227-4a50-83d5-684e9a3e8774",
+                "control-id": "ps-5",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ps-5_smt.c": {
+                    "uuid": "30eb17cc-7e34-4d3d-92c8-33a875e98f2e",
+                    "description": "GovReady PBC, upon role reassignment of employees and contract consultants, instructs the Director of Operations to modify access authorization as required by the reassignment.",
+                    "remarks": ""
+                  },
+                  "ps-5_smt.d": {
+                    "uuid": "cd7d9284-0936-4681-86a6-2960aa5dc84f",
+                    "description": "GovReady PBC, upon termination of individual employment and contract consulting services, rev",
+                    "remarks": ""
+                  },
+                  "ps-5_smt.b": {
+                    "uuid": "04116a45-12e3-48b7-b952-570b4531de77",
+                    "description": "GovReady PBC, upon role reassignment of employees and contract consultants, initiates reassignment actions within 14 day or otherwise specified time period following the reassignment.",
+                    "remarks": ""
+                  },
+                  "ps-5_smt.a": {
+                    "uuid": "e6d4f6e2-fba9-4b4d-9f23-593d4e7621c9",
+                    "description": "GovReady PBC, upon role reassignment of employees and contract consultants, reviews and confirms individuals need for access to information systems and customer/vendor facilities. (GovReady PBC is a virtual organization and does not have facilities.)",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "3971053e-766d-463d-a91c-8fb47ac298af",
+                "control-id": "ps-6",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ps-6_smt.c": {
+                    "uuid": "bf1b1f1f-2bdd-43e8-b0c4-96448b6aa966",
+                    "description": "GovReady PBC has the Director of Operations ensure that employees and consultants sign access agreements prior to being granted access to organizational information systems and re-sign such access agreements to maintain access when the access agreements substantially change.",
+                    "remarks": ""
+                  },
+                  "ps-6_smt.b": {
+                    "uuid": "ef38ed5e-3923-484b-a08e-b4f6fbfb5de7",
+                    "description": "GovReady PBC's Director of Operations reviews and updates employee an consultant access agreements on a quarterly basis.",
+                    "remarks": ""
+                  },
+                  "ps-6_smt.a": {
+                    "uuid": "12a0b65f-605c-41b9-89ac-cbff05f5b514",
+                    "description": "GovReady PBC maintains an access agreement for each employee that tracks the organizational systems to which an individual access. ",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "fcccbcd0-3d00-4ff9-8554-f55bf0a6b853",
+                "control-id": "ps-8",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ps-8_smt.a": {
+                    "uuid": "bfcbb0c2-160f-4e61-b3fa-78eb0905bfc2",
+                    "description": "GovReady PBC describes a formal sanction process in its employee manual and consulting contracts describing what happens when individuals fail to comply with information security policies and procedures.",
+                    "remarks": ""
+                  },
+                  "ps-8_smt.b": {
+                    "uuid": "27198b55-cbab-4798-8f90-084c7e8c4fd9",
+                    "description": "GovReady PBC notifies the Director of Operations and CEO within 14 days when a formal employee sanctions process is initiated, identifying the individual sanctioned and the reason for the sanction.",
+                    "remarks": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

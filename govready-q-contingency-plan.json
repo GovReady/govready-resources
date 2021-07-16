@@ -1,0 +1,114 @@
+{
+  "component-definition": {
+    "uuid": "052f0685-e7fd-45ef-b9b7-1be49776013c",
+    "metadata": {
+      "title": "GovReady-Q Contingency Plan Component-to-Control Narratives",
+      "published": "2021-07-16T17:20:56+00:00",
+      "last-modified": "2021-05-16T00:24:27+00:00",
+      "version": "2021-05-16T00:24:27+00:00",
+      "oscal-version": "1.0.0-rc1",
+      "props": [
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "Manual"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "800-53"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "GovReady Written"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "Public"
+        }
+      ]
+    },
+    "components": {
+      "3583b51b-c4c5-44d0-9313-60f67874d7b9": {
+        "title": "GovReady-Q Contingency Plan",
+        "type": "software",
+        "description": "The Contingency Plan for GovReady-Q",
+        "control-implementations": [
+          {
+            "uuid": "1f46ada2-6811-480f-b929-ab58c9888c3c",
+            "source": "NIST_SP-800-53_rev4",
+            "description": "Partial implementation of NIST_SP-800-53_rev4",
+            "implemented-requirements": [
+              {
+                "uuid": "74e5762e-173b-41df-aeb9-73703e3747e4",
+                "control-id": "cp-2",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cp-2_smt.b": {
+                    "uuid": "ff92c4f0-147b-402e-a390-66d486961381",
+                    "description": "The Contingency Plan is distributed to the Director of Operations and Chief Technology Officer by publishing the Plan as a Google Doc and/or markdown document in a GitHub repository.",
+                    "remarks": ""
+                  },
+                  "cp-2_smt.a": {
+                    "uuid": "b33b8015-9aca-4b78-933f-2b67e018263e",
+                    "description": "The GovReady PBC Organizational Security Handbook includes a Contingency Plan that describes critical systems are restored within 1 to 2 days and requires the following is addressed:\r\n\r\n- Use virtual virtual environments\r\n- Use containerized deployment\r\n- Republish existing content within 2 days\r\n- Re-pointing domain to new servers in a single day\r\n- Domain hosted at different service provider\r\n- All content is hosted in the database excluding configuration files\r\n- Share key administration account credentials among privileged individuals at different locations so it is possible to return to service",
+                    "remarks": ""
+                  },
+                  "cp-2_smt.f": {
+                    "uuid": "1b699cd0-de43-4c24-b51f-aa7c429d1b99",
+                    "description": "The Director of Operations communicates to the Chief Executive Officer and GovReady-Q developers when changes are made to the Contingency Plan.",
+                    "remarks": ""
+                  },
+                  "cp-2_smt.e": {
+                    "uuid": "32621ec5-44dc-409a-9df1-eab9029b50ab",
+                    "description": "GovReady PBC's Director of Operations and Chief Technology Officer update the GovReady-Q Contingency Plan when there are changes in the organization, GovReady-Q, general environment of operation, contingency testing results that impact effectiveness of the Contingency Plan.",
+                    "remarks": ""
+                  },
+                  "cp-2_smt.d": {
+                    "uuid": "09dc8e57-8dd9-4311-941e-7be877662a7c",
+                    "description": "GovReady PBC's Director of Operations and Chief Technology Officer review the Contingency Plan quarterly.",
+                    "remarks": ""
+                  },
+                  "cp-2_smt.c": {
+                    "uuid": "b05cb05b-1dc6-4d33-916d-e1fc746cee29",
+                    "description": "GovReady PBC coordinates contingency planning activities with incident handling activities by having the Incident Handling include the Director of Operations and Chief Technology Officer determining if an incident requires activation of the Contingency Plan.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "ecc7ba6a-a280-499e-aaa1-ad53e065767c",
+                "control-id": "cp-3.1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cp-3.1_smt": {
+                    "uuid": "548e7da7-9b16-4005-8bfc-fd9d2c1ee03d",
+                    "description": "GovReady-Q Contingency Plan includes example table-top exercises run on an annual basis that include simulated events using development environments as part of contingency training to facilitate effective response by personnel in crisis situations.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "c5f54542-4c30-4f37-8e05-e1d40f52f59b",
+                "control-id": "cp-6.3",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cp-6.3_smt": {
+                    "uuid": "17ac673a-f560-4b59-8d31-49a1818e20a0",
+                    "description": "The GovReady-Q Contingency Plan identifies potential accessibility problems to the alternate storage site in the event of an area-wide disruption or disaster and outlines explicit mitigation actions.",
+                    "remarks": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

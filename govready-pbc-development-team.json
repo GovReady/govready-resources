@@ -1,0 +1,63 @@
+{
+  "component-definition": {
+    "uuid": "3a96a87a-55c5-4b2c-9e6a-4e40a11567bd",
+    "metadata": {
+      "title": "GovReady PBC Development Team Component-to-Control Narratives",
+      "published": "2021-07-16T17:14:03+00:00",
+      "last-modified": "2021-05-16T00:25:28+00:00",
+      "version": "2021-05-16T00:25:28+00:00",
+      "oscal-version": "1.0.0-rc1",
+      "props": [
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "Manual"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "800-53"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "GovReady Written"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "Public"
+        }
+      ]
+    },
+    "components": {
+      "e7340c51-e306-484a-8677-a6338ac1b383": {
+        "title": "GovReady PBC Development Team",
+        "type": "software",
+        "description": "Team responsible at GovReady PBC for design, development,  implementation, and updates of GovReady PBC software.",
+        "control-implementations": [
+          {
+            "uuid": "b0779ecf-82eb-45ea-bec8-700183155680",
+            "source": "NIST_SP-800-53_rev4",
+            "description": "Partial implementation of NIST_SP-800-53_rev4",
+            "implemented-requirements": [
+              {
+                "uuid": "c1427556-9404-478e-8cf5-7d6ce66f499d",
+                "control-id": "cp-10",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cp-10_smt": {
+                    "uuid": "dde6eaef-32af-4534-924d-2c10a0a0b694",
+                    "description": "The GovReady Development Team designs the GovReady-Q information system as containerized, Infrastructure as Code approach with sufficient transaction logging and snapshot backups so that GovReady-Q can be reconstituted to a known state after a disruption, compromise or failure.",
+                    "remarks": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
